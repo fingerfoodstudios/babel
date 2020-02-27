@@ -5,9 +5,9 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "@babel/eslint-parser": "^7.10.4",
-    "@babel/eslint-plugin": "^7.10.4",
-    "@babel/eslint-shared-fixtures": "^7.10.4",
+    "@babel/eslint-parser": "workspace:^7.10.4",
+    "@babel/eslint-plugin": "workspace:^7.10.4",
+    "@babel/eslint-shared-fixtures": "workspace:^7.10.4",
     "dedent": "^0.7.0",
     "eslint": "^6.0.0",
     "eslint-plugin-import": "^2.20.1"

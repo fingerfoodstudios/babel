@@ -30,7 +30,7 @@
     "eslint": ">=6.0.0"
   },
   "devDependencies": {
-    "@babel/eslint-shared-fixtures": "^7.10.4",
+    "@babel/eslint-shared-fixtures": "workspace:^7.10.4",
     "eslint": "^6.0.0"
   }
 }
