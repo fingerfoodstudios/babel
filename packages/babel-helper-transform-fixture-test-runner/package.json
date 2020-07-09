@@ -20,8 +20,8 @@
     "@babel/helper-fixtures": "workspace:^7.10.4",
     "@babel/polyfill": "workspace:^7.10.4",
     "babel-check-duplicated-nodes": "^1.0.0",
-    "jest": "^25.1.0",
-    "jest-diff": "^25.1.0",
+    "jest": "^26.1.0",
+    "jest-diff": "^26.1.0",
     "lodash": "^4.17.13",
     "source-map": "^0.5.0"
   }
