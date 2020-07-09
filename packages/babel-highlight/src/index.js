@@ -170,7 +170,7 @@ export function shouldHighlight(options: Options): boolean {
 export function getChalk(options: Options) {
   let chalk = Chalk;
   if (options.forceColor) {
-    chalk = new Chalk.constructor({ enabled: true, level: 1 });
+    chalk = new Chalk.Instance({ enabled: true, level: 1 });
   }
   return chalk;
 }

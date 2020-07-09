@@ -81,15 +81,13 @@ describe("@babel/highlight", function () {
 
       describe("when forceColor is not passed", function () {
         it("returns a Chalk instance", function () {
-          expect(getChalk({}).constructor).toBe(chalk.constructor);
+          expect(getChalk({}).Instance).toBe(chalk.Instance);
         });
       });
 
       describe("when forceColor is passed", function () {
         it("returns a Chalk instance", function () {
-          expect(getChalk({ forceColor: true }).constructor).toBe(
-            chalk.constructor,
-          );
+          expect(getChalk({ forceColor: true }).Instance).toBe(chalk.Instance);
         });
       });
     });
@@ -99,15 +97,13 @@ describe("@babel/highlight", function () {
 
       describe("when forceColor is not passed", function () {
         it("returns a Chalk instance", function () {
-          expect(getChalk({}).constructor).toBe(chalk.constructor);
+          expect(getChalk({}).Instance).toBe(chalk.Instance);
         });
       });
 
       describe("when forceColor is passed", function () {
         it("returns a Chalk instance", function () {
-          expect(getChalk({ forceColor: true }).constructor).toBe(
-            chalk.constructor,
-          );
+          expect(getChalk({ forceColor: true }).Instance).toBe(chalk.Instance);
         });
       });
     });

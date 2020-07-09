@@ -16,7 +16,7 @@
   "main": "lib/index.js",
   "dependencies": {
     "@babel/helper-validator-identifier": "workspace:^7.10.4",
-    "chalk": "^2.0.0",
+    "chalk": "^4.1.0",
     "js-tokens": "^6.0.0"
   },
   "devDependencies": {
